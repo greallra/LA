@@ -9,6 +9,9 @@ const sharp = require('sharp');
 
 // Get a user - login
 
+router.post('/api/v1/users/test',async (req, res)=>{
+   res.send("hi")
+})
 router.post('/api/v1/users/me',async (req, res)=>{
     try {
         //find me
