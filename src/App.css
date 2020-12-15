@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+}
+
+.app {
+ display: grid;
+ place-items: center;
+ height: 100vh;
+ background-color: #dadbd3;
+}
+.app__body {
+  display: flex;
+  background-color: #ededed;
+  margin-top: -50px;
+  height: 90vh;
+  width: 90vw;
+  box-shadow: -1px 4px 20px -6px rgba(0,0,0,0.75);
+}
+
+h1,h2, p {
+  margin: 0;
+  padding: 0;
+}
+
+
+:root {
+  --light-green: #d4edda;
+  --green: #165724;
+  --light-yellow: #fff3cd;
+  --yellow: #856405;
+  --light-red: #F8D7DB;
+  --red: #72186D;
+  --white: #fff;
+  --transparent-black: #62646a;
+  --lightest-grey: #fefefe;
+  --lightgrey: #F5F5F5;
+  --grey: #E0E0E0;
+ 
+}
+input {
+  flex: 1;
+  border-radius: 30px;
+  padding: 10px;
+  border: none;
+  outline-width: 0;
+}
+
+    
