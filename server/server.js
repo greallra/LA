@@ -16,8 +16,8 @@ app.use((req, res, next) => {
     //allow the request to come from any endpoint
     console.log("request methods: ",req.method);
     console.log("req.originalUrl",req.originalUrl);
-    // res.setHeader("Access-Control-Allow-Origin", "*");
-    // res.setHeader("Access-Control-Allow-Headers", "*");
+    res.setHeader("Access-Control-Allow-Origin", "*");
+    res.setHeader("Access-Control-Allow-Headers", "*");
     next();
 })
 //routes
