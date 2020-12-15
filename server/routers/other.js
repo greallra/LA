@@ -13,7 +13,7 @@ router.post('/api/v1/messages', async (req, res) => {
         let messages = await Messages.find({ conversation_id: id })
         res.status(200).send(messages)
     } catch (error) {
-        res.send({error: e.message})
+        res.send({error: error.message})
     }
 })
 
