@@ -1,3 +1,4 @@
+...
 # Info
 - App was create using create-react-app to facilitate quick setup and integrated testing
 - React map gl used for mapping functionality (https://github.com/visgl/react-map-gl)

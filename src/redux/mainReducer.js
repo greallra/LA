@@ -5,7 +5,6 @@
   } else {
       url = process.env.REACT_APP_API_URL_HEROKU
   }
-
   
   export const defaultState = {
     user: {},
